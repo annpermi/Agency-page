@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+/* Global */
+.container {
+  width: 90%;
+}
+
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+/* Navbar */
+.navbar-brand {
+  color: #fed136 !important;
+}
+.navbar-nav li a {
+  color: white !important;
+}
+/* Header */
+header {
+  text-align: center;
+  color: #fff;
+  background-image: url("https://learn.seytech.co/assets/projects/html-css/projects/1-agency/assets/img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header h2 {
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+header .btn {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fed136;
+  border: none;
+  padding: 10px 50px;
+}
+
+header .btn:hover {
+  color: white;
+  background-color: #d5b02b;
+}
+
+/* Section services */
+.services i {
+  background-color: #fed136;
+  height: 1em;
+  width: 1.25em;
+}
