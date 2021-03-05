@@ -2,13 +2,18 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  background-color: antiquewhite;
+  background-color: rgb(252, 249, 244);
   text-align: center;
 }
 
 /* Global */
 .container {
   width: 90%;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .ml-auto,
@@ -50,8 +55,6 @@ header h2 {
 
 header h1 {
   font-size: 40px;
-  text-transform: uppercase;
-  font-weight: bold;
   margin-bottom: 20px;
 }
 
@@ -70,8 +73,74 @@ header .btn:hover {
 }
 
 /* Section services */
-.services i {
+.box .fas {
+  color: white;
   background-color: #fed136;
-  height: 1em;
-  width: 1.25em;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+#services .text {
+  margin: 60px;
+}
+.text h1 {
+  font-size: 40px;
+}
+.text p {
+  color: rgb(145, 145, 145);
+  font-style: italic;
+}
+
+.row h2 {
+  font-weight: bold;
+  margin: 20px;
+}
+
+.row p {
+  color: rgb(145, 145, 145);
+  margin: 20px;
+}
+
+/* Portfolio Section */
+#portfolio,
+#team {
+  background-color: rgb(228, 227, 227);
+}
+
+#portfolio .img-fluid:hover {
+  cursor: pointer;
+  opacity: 1;
+  background: rgba(254, 209, 54, 0.9);
+}
+.portfolio-hover {
+  background: rgba(254, 209, 54, 0.9);
+  opacity: 0.5;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-hover .fa-plus {
+  color: white;
+  position: absolute;
+}
+
+/* Section Team */
+figure img {
+  height: 240px !important;
+  width: 240px;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.team-img h4 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.team-img p {
+  margin-top: 0;
 }
